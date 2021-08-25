@@ -1,41 +1,181 @@
-# Projeto final de aplicação módulo 3
+# DevInHouse - PROJETO FINAL
 
+Projeto fullstack realizado como tarefa de conclusão o curso DevInHouse SENAI/SC em parceria com ACATE/SC e SOFTPLAN.
 
-
-## Descrição
-
-Você está participando de um processo seletivo para ingressar numa vaga de programador
-**full stack** em uma grande empresa de TI. E como etapa final deste processo seletivo você deverá documentar a **API REST**, criar um diagrama de camadas de aplicação e *dockerizar* o módulo de **Frontend** e **Backend** feitos na etapa anterior deste processo (**#Projeto 6**).
-
-
+<br>
 
 ## Funcionalidades
 
-* Deverá ser documentada a **API REST** do Backend feita no **#Projeto 6**;
-* Dockerizar o Frontend feito no **#Projeto 6**; 
-* Dockerizar o Backend feito no **#Projeto 6**;
-* Criar um diagrama de integrações dos sistemas feitos até está etapa do processo, contendo as camadas de  apresentação, negócio, segurança e persistência.
+- Deverá ser documentada a **API REST** do Backend feita no **#Projeto 6**;
+- Dockerizar o Frontend feito no **#Projeto 6**;
+- Dockerizar o Backend feito no **#Projeto 6**;
+- Criar um diagrama de integrações dos sistemas feitos até está etapa do processo, contendo as camadas de apresentação, negócio, segurança e persistência.
 
+<br>
 
+## Diagrama de integrações
 
-## Requisitos
+Diagramas de integrações de aplicações contendo as camadas de apresentação, negócio, segurança e persistência.
 
-* 1 - Ultilização do docker no projeto de **Frontend**, realizando todas as instalações de dependências necessárias para o projeto;
-* 2 - Ultilização do docker no projeto de **Backend**, realizando todas as instalações de dependências necessárias para o projeto;
-* 3 - Documentação de API no modelo de arquiterura REST;
-* 4 - Diagramas de integrações de aplicações contendo as camadas de  apresentação, negócio, segurança e persistência;
+<br>
 
+<div align="center">
+  <img  width='400' src='https://user-images.githubusercontent.com/45580434/130707396-b277b7f9-cd7e-4153-9e9e-763c645a1bc8.png' alt="diagrama das camadas e aplicação">
+</div>
 
+<br><br>
 
+## Ferramentas/tecnologias utilizadas
 
-## Instruções para a avaliação
+<br>
 
-* Fork esse repositório e faça o desafio numa branch se organizando com seu grupo;
-* Assim que o grupo concluir o seu desafio, encaminhe o link dos repositórios no **AVA** até a data de **26/08 as 18:00**;
-* Todos deverão participar da apresentação do projeto que tem tempo máximo de 15
-  minutos;
-* Realize a apresentação de acordo com os requisitos solicitados neste projeto;
+### Boas práticas:
 
+- GIT
+- Clean Code
+- Scrum
 
+<br>
 
-OBS: Para visualizar os critérios de aceite deste projeto veja [AQUI](./criterios-de-aceite.md).
+### No frontend:
+
+- HTML
+- CSS
+- JavaScript
+- React (principal biblioteca para construção do site)
+- Context API (bibliotexa de gerenciamento de estado global)
+- React Router (para aplicar múltiplas rotas)
+- Material-UI (biblioteca de UI com Material Design)
+- Formik (criação dos formulários)
+- Yup (validação dos formulários)
+- React Testing Library (realizar os testes unitários)
+- Cypress (desenvolvimento dos testes de e2e)
+- Styled Components (biblioteca que permite escrever códigos CSS no JS)
+- Responsividade e adaptação de aplicação web para front
+- Keycloak (para implementação da autenticação)
+
+<br>
+
+### No backend:
+
+- Java
+- Springboot (estrutura de projeto)
+- Maven (automação e gerenciamento de projeto Java)
+- versionamento de API
+- métodos HTTP
+- padrão de projeto MVC
+- Testes unitários
+- JPA (mapeamento de objeto relacional)
+- H2 (SQL)
+- Swagger (documentação da API REST)
+- Logging
+- Keycloak (para implementação da autenticação e autorização)
+
+<br>
+
+### Integração:
+
+- Docker
+
+<br><br>
+
+## Como rodar a aplicação
+
+No terminal, clone o projeto:
+
+```bash
+git clone
+```
+
+<br>
+
+### Frontend
+
+Entre na pasta do projeto:
+
+```bash
+cd Projetos/FrontEnd_/
+```
+
+Execute a aplicação via docker-compose:
+
+```bash
+docker-compose up
+```
+
+<br>
+
+### Backend
+
+Entre na pasta do projeto:
+
+```bash
+cd Projetos/BackEnd/
+```
+
+Build a aplicação:
+
+```bash
+mvn clean install -DskipTests=true
+```
+
+Execute a aplicação via docker-compose:
+
+```bash
+docker-compose up
+```
+
+<br><br>
+
+## Contribuição
+
+Contribuições com o projeto são muito apreciadas. Para isso:
+
+- Faça um Fork do projeto
+
+- Crie uma branch para sua feature
+
+```
+git checkout -b feature
+```
+
+- Adicione as mudanças
+
+```
+git add .
+```
+
+- _Commit_ as mudanças
+
+```
+git commit -m 'Adicionando a feature X'
+```
+
+- Faça o push da branch
+
+```
+git push origin feature
+```
+
+- Abra um Pull Request
+
+<br><br>
+
+## Licença
+
+The [MIT License]() (MIT)
+
+Copyright :copyright: 2021 - Projeto Final
+
+<br><br>
+
+## Desenvolvedoras :octocat:
+
+<br>
+
+<div align="center">
+
+| [<img src="https://avatars.githubusercontent.com/u/47026392?s=460&u=8d55f59b971be6ff3db89146f223fe6cfacbf18c&v=4" width=115><br><sub>Amanda Brugiolo</sub>](https://github.com/abrugiolo) | [<img src="https://avatars.githubusercontent.com/u/40336369?s=460&v=4" width=115><br><sub>Emanuelle</sub>](https://github.com/manubf) | [<img src="https://avatars.githubusercontent.com/u/74935208?s=460&u=e7c6909558ba5031978f43ee77810c4191e05d75&v=4" width=115><br><sub>Milena Diniz</sub>](https://github.com/milena-diniz) | [<img src="https://avatars.githubusercontent.com/u/45580434?s=460&u=07188d0258859fc94b46983bcb85c09b4d7c5daf&v=4" width=115><br><sub>Rosana Rezende</sub>](https://github.com/rosanarezende) |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+</div>
