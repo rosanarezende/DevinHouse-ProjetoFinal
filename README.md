@@ -83,6 +83,7 @@ Diagramas de integrações de aplicações contendo as camadas de apresentação
 
 Instalar
 - docker
+- docker-compose
 - mvn
 
 <br><br>
