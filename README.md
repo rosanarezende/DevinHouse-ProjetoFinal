@@ -79,28 +79,20 @@ Diagramas de integrações de aplicações contendo as camadas de apresentação
 
 <br><br>
 
+# Pré-requisitos para rodar a aplicação
+
+Instalar
+- docker
+- mvn
+
+<br><br>
+
 ## Como rodar a aplicação
 
 No terminal, clone o projeto:
 
 ```bash
 git clone
-```
-
-<br>
-
-### Frontend
-
-Entre na pasta do projeto:
-
-```bash
-cd Projetos/FrontEnd_/
-```
-
-Execute a aplicação via docker-compose:
-
-```bash
-docker-compose up
 ```
 
 <br>
@@ -124,6 +116,27 @@ Execute a aplicação via docker-compose:
 ```bash
 docker-compose up
 ```
+
+<br>
+
+### Frontend
+
+Num novo terminal, entre na pasta do projeto:
+
+```bash
+cd Projetos/FrontEnd_/
+```
+
+Execute a aplicação via docker-compose:
+
+```bash
+docker-compose up
+```
+
+<br>
+
+Pronto, basta rodar a aplicação na porta indicada no terminal (normalmente [http://localhost:3000/](http://localhost:3000/) )
+
 
 <br><br>
 
