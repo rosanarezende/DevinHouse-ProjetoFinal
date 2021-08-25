@@ -99,7 +99,7 @@ git clone
 
 ### Backend
 
-Entre na pasta do projeto:
+Entre na pasta do backend:
 
 ```bash
 cd Projetos/BackEnd/
@@ -121,7 +121,7 @@ docker-compose up
 
 ### Frontend
 
-Num novo terminal, entre na pasta do projeto:
+Num novo terminal, entre na pasta do frontend:
 
 ```bash
 cd Projetos/FrontEnd_/
@@ -135,7 +135,8 @@ docker-compose up
 
 <br>
 
-Pronto, basta rodar a aplicação na porta indicada no terminal (normalmente [http://localhost:3000/](http://localhost:3000/) )
+Pronto, basta rodar a aplicação na porta indicada no terminal: [http://localhost:3000/](http://localhost:3000/)
+- a aplicação estará autenticada nessa porta
 
 
 <br><br>
@@ -148,25 +149,25 @@ Contribuições com o projeto são muito apreciadas. Para isso:
 
 - Crie uma branch para sua feature
 
-```
+```bash
 git checkout -b feature
 ```
 
 - Adicione as mudanças
 
-```
+```bash
 git add .
 ```
 
 - _Commit_ as mudanças
 
-```
+```bash
 git commit -m 'Adicionando a feature X'
 ```
 
 - Faça o push da branch
 
-```
+```bash
 git push origin feature
 ```
 
