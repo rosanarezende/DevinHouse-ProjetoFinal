@@ -134,6 +134,10 @@ Pronto, basta rodar a aplicação na porta indicada no terminal: [http://localho
 - *usuário*: user
 - *senha*: 123
 
+<br>
+
+**OBS**:  a documentação (swagger) estará disponível em: [http://localhost:8080/swagger-ui/#/](http://localhost:8080/swagger-ui/#/)
+
 
 <br><br>
 
