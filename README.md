@@ -131,6 +131,8 @@ docker-compose up
 
 Pronto, basta rodar a aplicação na porta indicada no terminal: [http://localhost:3000/](http://localhost:3000/)
 - a aplicação estará autenticada nessa porta
+- *usuário*: user
+- *senha*: 123
 
 
 <br><br>
